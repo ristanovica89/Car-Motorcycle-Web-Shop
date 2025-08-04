@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+        background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+        color: #fff;
+        min-height: 100vh;
+      }
+      .navbar {
+        background-color: rgba(0, 0, 0, 0.7);
+      }
+      .navbar-brand {
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #f8f9fa !important;
+      }
+      .nav-user {
+        color: #adb5bd;
+        font-weight: 500;
+      }
+      .search-container {
+        max-width: 700px;
+        margin: 60px auto;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+      }
+      label {
+        font-weight: 500;
+      }
+      .form-control,
+      .form-select {
+        background-color: #e9ecef;
+      }
